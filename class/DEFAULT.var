@@ -1,0 +1,6 @@
+CONSOLEFONT=Lat2-Terminus16
+KEYMAP=de-latin1
+ROOTPW=$1$bAgTSEc9$NbsFb9iaNiNnFqxrCdLur1
+UTC=yes
+TIMEZONE=Europe/Berlin
+
