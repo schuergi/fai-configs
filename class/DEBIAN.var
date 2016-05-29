@@ -8,7 +8,7 @@ ROOTPW=$1$z00wohmb$qOFPuYxZ77o/KUbVI2rhU0
 # not during installation these modules will be written to /etc/modules
 # If you need a module during installation, add it to $kernelmodules
 # in 20-hwdetect.sh.
-MODULESLIST="usbhid psmouse"
+#MODULESLIST="usbhid psmouse"
 
 # if you have enough RAM (>2GB) you may want to enable this line. It
 # also puts /var/cache into a ramdisk.

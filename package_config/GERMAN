@@ -1,5 +1,5 @@
 PACKAGES aptitude
 task-german
 
-PACKAGES aptitude GNOME
+PACKAGES aptitude
 iceweasel-l10n-de icedove-l10n-de
