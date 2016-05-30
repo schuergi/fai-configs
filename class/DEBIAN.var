@@ -2,8 +2,8 @@ CONSOLEFONT=Lat2-Terminus16
 KEYMAP=de-latin1
 TIMEZONE=Europe/Berlin
 UTC=yes
-ROOTPW=$1$z00wohmb$qOFPuYxZ77o/KUbVI2rhU0
-
+#ROOTPW=$1$z00wohmb$qOFPuYxZ77o/KUbVI2rhU0
+ROOTPW=$1$dukugBMQ$IuHDzkkkViIElkXV8L2Gk.
 # MODULESLIST contains modules that will be loaded by the new system,
 # not during installation these modules will be written to /etc/modules
 # If you need a module during installation, add it to $kernelmodules
