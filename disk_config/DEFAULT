@@ -1,3 +1,0 @@
-disk_config sda disklabel:msdos bootable:1
-primary /	50000-55000	ext4 rw
-primary	swap	2048		swap sw
