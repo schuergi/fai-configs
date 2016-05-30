@@ -11,7 +11,7 @@
 BASE	dc=fai-server,dc=lan
 URI	ldap://fai-server.lan
 
-SUDOERS_BASE = ou=SUDOers,dc=fai-server,dc=lan
+SUDOERS_BASE  ou=SUDOers,dc=fai-server,dc=lan
 
 #SIZELIMIT	12
 #TIMELIMIT	15

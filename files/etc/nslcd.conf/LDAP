@@ -7,7 +7,7 @@ uid nslcd
 gid nslcd
 
 # The location at which the LDAP server(s) should be reachable.
-uri ldap://192.168.3.1/
+uri ldap://fai-server.lan/
 
 # The search base that will be used for all queries.
 base dc=fai-server,dc=lan
