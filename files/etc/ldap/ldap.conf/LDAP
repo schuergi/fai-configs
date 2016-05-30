@@ -8,10 +8,10 @@
 #BASE	dc=example,dc=com
 #URI	ldap://ldap.example.com ldap://ldap-master.example.com:666
 
-BASE	dc=semtix
-URI	ldap://gretel.semtix
+BASE		dc=semtix
+URI		ldap://gretel.semtix
 
-SUDOERS_BASE = ou=SUDOers,dc=semtix
+SUDOERS_BASE	ou=SUDOers,dc=semtix
 
 #SIZELIMIT	12
 #TIMELIMIT	15
