@@ -1,5 +1,5 @@
-PACKAGES remove
-sudo
+#PACKAGES remove
+#sudo
 
 PACKAGES install
 ldap-utils sudo-ldap libnss-ldapd krb5-config krb5-user libpam-krb5 

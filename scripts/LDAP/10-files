@@ -2,6 +2,6 @@
 
 fcopy -ir /etc/ldap
 fcopy -i /etc/krb5.conf
-fcopy -i /etc/libnss.conf
+fcopy -ir /etc/ldap
 fcopy -i /etc/nsswitch.conf
 fcopy -ir /etc/pam.d

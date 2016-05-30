@@ -3,7 +3,8 @@ KEYMAP=de-latin1
 TIMEZONE=Europe/Berlin
 UTC=yes
 #ROOTPW=$1$z00wohmb$qOFPuYxZ77o/KUbVI2rhU0
-ROOTPW=$1$dukugBMQ$IuHDzkkkViIElkXV8L2Gk.
+#ROOTPW=$1$dukugBMQ$IuHDzkkkViIElkXV8L2Gk.
+#ROOTPW=$1$bSnPQ.rL$74Q/mUoVtyABbmtXrH2/N.
 # MODULESLIST contains modules that will be loaded by the new system,
 # not during installation these modules will be written to /etc/modules
 # If you need a module during installation, add it to $kernelmodules
@@ -15,4 +16,4 @@ ROOTPW=$1$dukugBMQ$IuHDzkkkViIElkXV8L2Gk.
 #FAI_RAMDISKS:="$target/var/lib/dpkg $target/var/cache"
 
 # if you want to use the faiserver as APT proxy
-#APTPROXY=http://faiserver:3142
+APTPROXY=http://192.168.3.1:3142
