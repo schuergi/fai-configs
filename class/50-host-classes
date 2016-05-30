@@ -10,9 +10,9 @@ case $HOSTNAME in
     faiserver)
         echo "FAIBASE DEBIAN DEMO FAISERVER" ;;
     demohost|client*)
-        echo "FAIBASE DEBIAN DEMO" ;;
+        echo "FAIBASE DEBIAN DEMO DHCPC" ;;
     fai-client)
-        echo "FAIBASE DEBIAN DEMO XORG DHCPC XFCE GRUB LDAP GERMAN";;
+        echo "FAIBASE DEBIAN DEMO XORG XFCE GRUB GERMAN";;
     gnomehost)
         echo "FAIBASE DEBIAN DEMO XORG GNOME";;
     centos)
