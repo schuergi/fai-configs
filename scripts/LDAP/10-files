@@ -1,7 +1,7 @@
 #!/bin/bash
 
 fcopy -ir /etc/ldap
-fcopy -i /etc/krb5.conf
-fcopy -ir /etc/ldap
-fcopy -i /etc/nsswitch.conf
+fcopy -i  /etc/krb5.conf
+fcopy -i  /etc/nsswitch.conf
 fcopy -ir /etc/pam.d
+fcopy -i  /etc/nslcd.conf
