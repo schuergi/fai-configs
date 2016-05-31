@@ -12,7 +12,7 @@ case $HOSTNAME in
     demohost|client*)
         echo "FAIBASE DEBIAN DEMO DHCPC" ;;
     fai-client)
-        echo "FAIBASE DEBIAN DEMO XORG XFCE GRUB GERMAN LDAP";;
+        echo "FAIBASE DEBIAN DEMO XORG XFCE GRUB GERMAN LDAP NFSHOME";;
     gnomehost)
         echo "FAIBASE DEBIAN DEMO XORG GNOME";;
     centos)

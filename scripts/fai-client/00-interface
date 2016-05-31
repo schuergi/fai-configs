@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sed -s -i '/^auto/auto eth0/g' /target/etc/network/interfaces
+echo "iface eth0 inet dhcp" >> /taget/etc/network/interfaces

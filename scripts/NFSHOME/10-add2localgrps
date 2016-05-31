@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "*;*;*;Al0000-2400;audio,cdrom,dialout,floppy" > /target/etc/security/group.conf
+
