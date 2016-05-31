@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cat <<EOF >> /target/etc/fsstab
+cat <<EOF >> /target/etc/fstab
 192.168.3.1:/srv/nfs4/home /home nfs rw 0 0
 EOF
