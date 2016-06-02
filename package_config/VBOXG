@@ -3,7 +3,7 @@ tango-icon-theme
 evince
 eog
 vlc
-task-print-server
+task-print-server cups-pdf
 task-ssh-server
 libreoffice openclipart-libreoffice cups-bsd hunspell-de libreoffice-gtk libpaper-utils
 synaptic
@@ -12,6 +12,9 @@ gimp-data-extras
 default-jre
 xarchiver
 xsane
+thunar-archive-plugin
+dkms linux-headers-amd64
+build-essential
 
 PACKAGES install GERMAN
 libreoffice-l10n-de
