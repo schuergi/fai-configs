@@ -11,7 +11,7 @@
 BASE		dc=semtix
 URI		ldap://gretel.semtix
 
-SUDOERS_BASE	ou=SUDOers,dc=semtix
+sudoers_base	ou=SUDOers,dc=semtix
 
 #SIZELIMIT	12
 #TIMELIMIT	15
