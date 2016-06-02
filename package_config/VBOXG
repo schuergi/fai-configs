@@ -1,0 +1,17 @@
+PACKAGES install
+tango-icon-theme
+evince
+eog
+vlc
+task-print-server
+task-ssh-server
+libreoffice openclipart-libreoffice cups-bsd hunspell-de libreoffice-gtk libpaper-utils
+synaptic
+gimp
+gimp-data-extras
+default-jre
+xarchiver
+xsane
+
+PACKAGES install GERMAN
+libreoffice-l10n-de

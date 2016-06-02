@@ -11,7 +11,14 @@
 BASE	dc=fai-server,dc=lan
 URI	ldap://fai-server.lan
 
-SUDOERS_BASE  ou=SUDOers,dc=fai-server,dc=lan
+# Must be set or sudo will ignore LDAP; may be specified multiple times.
+sudoers_base  ou=SUDOers,dc=fai-server,dc=lan
+
+# verbose sudoers matching from ldap
+#sudoers_debug 2
+#
+# Enable support for time-based entries in sudoers.
+#sudoers_timed yes
 
 #SIZELIMIT	12
 #TIMELIMIT	15

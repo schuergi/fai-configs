@@ -18,4 +18,4 @@ ethers:         db files
 rpc:            db files
 
 netgroup:       nis
-sudoers:	files ldap
+sudoers:	ldap [NOTFOUND=return] files
