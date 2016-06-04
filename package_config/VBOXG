@@ -5,7 +5,7 @@ eog
 vlc
 task-print-server cups-pdf
 task-ssh-server
-libreoffice openclipart-libreoffice cups-bsd hunspell-de libreoffice-gtk libpaper-utils
+libreoffice openclipart-libreoffice cups-bsd hunspell-de-de libreoffice-gtk libpaper-utils
 synaptic
 gimp
 gimp-data-extras
@@ -15,6 +15,7 @@ xsane
 thunar-archive-plugin
 dkms linux-headers-amd64
 build-essential
+semtixdb
 
 PACKAGES install GERMAN
 libreoffice-l10n-de
