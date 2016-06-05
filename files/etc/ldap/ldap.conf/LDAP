@@ -8,10 +8,17 @@
 #BASE	dc=example,dc=com
 #URI	ldap://ldap.example.com ldap://ldap-master.example.com:666
 
-BASE		dc=semtix
-URI		ldap://gretel.semtix
+BASE	dc=fai-server,dc=lan
+URI	ldap://fai-server.lan
 
-sudoers_base	ou=SUDOers,dc=semtix
+# Must be set or sudo will ignore LDAP; may be specified multiple times.
+sudoers_base  ou=SUDOers,dc=fai-server,dc=lan
+
+# verbose sudoers matching from ldap
+#sudoers_debug 2
+#
+# Enable support for time-based entries in sudoers.
+#sudoers_timed yes
 
 #SIZELIMIT	12
 #TIMELIMIT	15

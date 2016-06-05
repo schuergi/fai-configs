@@ -1,0 +1,14 @@
+#!/bin/bash
+if [ $FAI_ACTION = "install" ]
+then
+sed  's/^auto/auto eth0/g' -i $target/etc/network/interfaces
+
+cat >> $target/etc/network/interfaces <<-EOF
+iface eth0 inet dhcp
+EOF
+
+cat >> $target/etc/hosts <<-EOF
+192.168.3.3 fai-client fai-client.lan
+192.168.3.1 fai-server fai-server.lan
+EOF
+fi

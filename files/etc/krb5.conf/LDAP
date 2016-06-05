@@ -1,5 +1,5 @@
 [libdefaults]
-	default_realm = SEMTIX
+	default_realm = FAI.LAN
 
 # The following krb5.conf variables are only for MIT Kerberos.
 	krb4_config = /etc/krb.conf
@@ -37,9 +37,15 @@
 	fcc-mit-ticketflags = true
 
 [realms]
+<<<<<<< HEAD
 	SEMTIX = {
 		kdc = gretel.semtix
 		admin_server = gretel.semtix
+=======
+	FAI.LAN = {
+		kdc = fai-server.lan
+		admin_server = fai-server.lan
+>>>>>>> vbox
 	}
 	ATHENA.MIT.EDU = {
 		kdc = kerberos.mit.edu:88
@@ -137,12 +143,18 @@
 	.slac.stanford.edu = SLAC.STANFORD.EDU
         .toronto.edu = UTORONTO.CA
         .utoronto.ca = UTORONTO.CA
+<<<<<<< HEAD
 	.semtix = SEMTIX
 	semtix = SEMTIX
+=======
+	.fai-server.lan = FAI.LAN
+	fai-server.lan = FAI.LAN
+>>>>>>> vbox
 
 [login]
 	krb4_convert = true
 	krb4_get_tickets = false
+<<<<<<< HEAD
 
 [logging]
 	kdc = FILE:/var/log/kerberos/krb5kdc.log
@@ -157,3 +169,5 @@
 [libdefaults]
 
 allow_weak_crypto = true 
+=======
+>>>>>>> vbox

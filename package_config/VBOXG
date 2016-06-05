@@ -1,0 +1,27 @@
+PACKAGES install
+tango-icon-theme
+evince
+eog
+vlc
+task-print-server cups-pdf
+task-ssh-server
+libreoffice openclipart-libreoffice cups-bsd hunspell-de-de libreoffice-gtk libpaper-utils
+synaptic
+gimp
+gimp-data-extras
+default-jre
+xarchiver
+xsane
+thunar-archive-plugin
+dkms linux-headers-amd64
+build-essential
+gvfs-backends samba-common
+semtixdb
+light-locker
+flashplugin-nonfree
+
+PACKAGES install GERMAN
+libreoffice-l10n-de
+
+PACKAGES remove
+xscreensaver

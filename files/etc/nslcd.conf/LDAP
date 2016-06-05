@@ -7,10 +7,11 @@ uid nslcd
 gid nslcd
 
 # The location at which the LDAP server(s) should be reachable.
-uri ldap://gretel.semtix/
+# IMPORTANT: use the IP address here
+uri ldap://192.168.3.1/
 
 # The search base that will be used for all queries.
-base dc=semtix
+base dc=fai-server,dc=lan
 
 # The LDAP protocol version to use.
 #ldap_version 3

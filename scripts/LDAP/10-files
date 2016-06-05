@@ -2,6 +2,9 @@
 
 fcopy -ir /etc/ldap
 fcopy -i  /etc/krb5.conf
-fcopy -i  /etc/nslcd.conf
 fcopy -i  /etc/nsswitch.conf
 fcopy -ir /etc/pam.d
+fcopy -i -m 0,0,640  /etc/nslcd.conf
+
+# systemctl start nslcd.service
+
