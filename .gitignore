@@ -1,0 +1,5 @@
+files/etc/semtixdb/
+files/etc/semtixdb/hibernate.cfg.xml/
+files/etc/semtixdb/semtixconf.properties/
+files/etc/semtixdb/log4j.properties/
+scripts/VBOXG/10semtixconf

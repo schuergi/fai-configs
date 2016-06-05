@@ -15,7 +15,13 @@ xsane
 thunar-archive-plugin
 dkms linux-headers-amd64
 build-essential
+gvfs-backends samba-common
 semtixdb
+light-locker
+flashplugin-nonfree
 
 PACKAGES install GERMAN
 libreoffice-l10n-de
+
+PACKAGES remove
+xscreensaver
