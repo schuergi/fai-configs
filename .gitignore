@@ -4,3 +4,5 @@ files/etc/semtixdb/semtixconf.properties/
 files/etc/semtixdb/log4j.properties/
 scripts/VBOXG/10semtixconf
 *.orig
+files/usr
+

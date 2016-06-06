@@ -19,6 +19,7 @@ gvfs-backends samba-common
 semtixdb
 light-locker
 flashplugin-nonfree
+boomaga
 
 PACKAGES install GERMAN
 libreoffice-l10n-de
