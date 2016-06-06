@@ -11,7 +11,7 @@ linux-image-amd64 initramfs-tools
 memtest86+
 
 PACKAGES install DHCPC
-isc-dhcp-client
+isc-dhcp-client ntp
 
 PACKAGES install GRUB_PC
 grub-pc grub-legacy- lilo-
