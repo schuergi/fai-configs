@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sed -i 's/^#RAMTMP=no/RAMTMP=yes/g' $target/etc/default/tmpfs
+sed -i 's/#TMPFS_SIZE=20%VM/TMPFS_SIZE=20%VM/g' $target/etc/default/tmpfs
