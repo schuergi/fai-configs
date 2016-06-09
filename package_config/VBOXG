@@ -3,7 +3,7 @@ tango-icon-theme
 evince
 eog
 vlc
-task-print-server cups-pdf
+task-print-server cups-pdf sytem-config-printer
 task-ssh-server
 libreoffice openclipart-libreoffice cups-bsd hunspell-de-de libreoffice-gtk libpaper-utils
 synaptic
@@ -25,4 +25,4 @@ PACKAGES install GERMAN
 libreoffice-l10n-de
 
 PACKAGES remove
-xscreensaver
+xscreensaver linux-image-4.4.6-fai-amd64
