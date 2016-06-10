@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # deactivate logo for libreoffice
-sed 's/Logo=1/Logo=0/g' -i $target/etc/libreoffice/sofficerc
+sed -i 's/Logo=1/Logo=0/g' $target/etc/libreoffice/sofficerc
 
 # TODO: set standard printer
- 

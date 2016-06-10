@@ -3,7 +3,7 @@
 if [ $FAI_ACTION = "install" ]
 then
 cat >> $target/etc/security/group.conf <<-EOF
-*;*;%ldapusers;Al0000-2400;audio,cdrom,dialout,floppy,users
+*;*;%ldapusers;Al0000-2400;audio,cdrom,dialout,floppy,users,vboxsf
 EOF
 fi
 
