@@ -5,6 +5,6 @@ configuration files and classes for fast automated install files to setup LDAP K
 
 Finally a class to install puppet (insertion of puppetlabs repo into sources.list of nfsroot needed).
 
-See https://fai-project.org
+See http://fai-project.org
 
 Thx to Thomas Lange! Keep up the good work!
