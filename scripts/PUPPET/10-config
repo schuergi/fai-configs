@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ $FAI_ACTION = 'install' ]
+ then
+ fcopy -i /etc/puppetlabs/puppet/puppet.conf
+# sed -i '/certname =  something/certname = '$HOST'/' $target/etc/puppetlabs/puppet/puppet.conf
+fi
+
